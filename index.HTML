@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relógio Digital</title>
+    <link rel="stylesheet" href="Style.CSS">
+</head>
+<body onload="moveRelogio()">
+    <main class="tela-principal">
+
+        <section class="conteudo">
+            <!-- Relógio digital -->
+            <div id="relogioDigital">
+                <span id="h"></span>:
+                <span id="m"></span>:
+                <span id="s"></span>
+            </div>
+
+           <!-- Tela do relógio -->
+           <div id="telaSmart">
+
+            <!-- Relógio -->
+            <div id="relogioSmart">
+                <span id="hSmart"></span>
+                <span class="doisPontos">:</span>
+                <span id="mSmart"></span>
+                <span class="doisPontos">:</span>
+                <span id="sSmart"></span>
+            </div>
+
+            <!-- Data e dia da semana -->
+            <div id="dataSmart">
+                <span id="semana"></span>
+                <span id="data"></span>
+            </div>
+
+            <!-- Temperatura -->
+            <div id="temperatura">
+                <h1 class="city"></h1>
+                <h2><span id="temp">°C 💧</span><span id="unidad">%</span></h2>
+
+
+            </div>
+           </div>
+        </section>
+    </main>
+</body>
+<script src="script.js"></script>
+</html>

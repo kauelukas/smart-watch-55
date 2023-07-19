@@ -1,0 +1,13 @@
+1) Emojis:
+
+🌡
+💧
+
+2) Importação das Fontes para o CSS:
+
+@import url('https://fonts.googleapis.com/css2?family=Nova+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100;300;500&family=DM+Mono:wght@300;500&display=swap');
+
+3) Endereço para pegar o local e a temperatura:
+
+url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${long}&units=imperial&APPID=622296cd4fda08b69c46ccfa980f968d`
